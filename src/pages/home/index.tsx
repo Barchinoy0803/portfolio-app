@@ -4,7 +4,7 @@ import image from "../../assets/image.png";
 
 const Home = () => {
   return (
-    <div className="container flex md:flex-row md:justify-between items-center gap-4 h-full p-3">
+    <div className="container__pages h-full flex md:flex-row md:justify-between items-center gap-4 p-3">
       <div className="flex flex-col gap-6 md:text-left">
         <p className="text-2xl md:text-3xl">Hello I'm</p>
         <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl">

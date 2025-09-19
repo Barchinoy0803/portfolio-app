@@ -4,7 +4,7 @@ import PortfolioBackground from './components/scrollAnimation'
 
 const App = () => {
   return (
-    <div style={{ width: '100%', height: 600, position: 'relative' }}>
+    <div style={{ width: '100%', height: "78vh", position: 'relative' }}>
       <PortfolioBackground />
       <MainRouter />
     </div>
