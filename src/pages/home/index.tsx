@@ -26,7 +26,7 @@ const Home = () => {
 
       <div>
         <img
-          className="w-[300px] h-[200px] md:w-[420px] md:h-[420px] object-cover rounded-full"
+          className="w-[340px] h-[190px] md:w-[420px] md:h-[420px] object-cover rounded-full"
           src={image}
           alt="Profile"
         />
