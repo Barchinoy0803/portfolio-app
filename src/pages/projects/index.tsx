@@ -4,8 +4,8 @@ import { projectData } from '../../constants/projectData'
 
 const Projects = () => {
     return (
-        <div className='container'>
-            <h1 className='text-4xl mb-5 font-semibold'>My Projects</h1>
+        <div className='container__pages p-3'>
+            <h1 className='text-3xl mb-5 font-semibold md:text-4xl'>My Projects</h1>
             <div className=' flex gap-6 flex-wrap'>
                 {
                     projectData?.map((project) => (

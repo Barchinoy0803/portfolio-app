@@ -1,31 +1,38 @@
-import { memo } from 'react'
+import { memo } from "react";
 import { ReactTyped } from "react-typed";
-import image from "../../assets/portfolioImage.jpg"
+import image from "../../assets/image.png";
 
 const Home = () => {
-    return (
-        <div className='container flex items-center justify-between h-full'>
-            <div className='flex flex-col gap-6'>
-                <p className='text-3xl'>Hello I'm</p>
-                <h1 className='text-5xl font-semibold'>Barchinoy Yusupova</h1>
-                <div className='text-3xl'>
-                    <ReactTyped
-                        strings={[
-                            "a full-stack developer",
-                            "a backend developer",
-                            "a frontend developer",
-                        ]}
-                        typeSpeed={80}
-                        backSpeed={40}
-                        loop
-                    />
-                </div>
-            </div>
-            <div>
-                <img className='w-[500px] h-[500px] object-cover rounded-full' src={image} alt="" />
-            </div>
+  return (
+    <div className="container flex md:flex-row md:justify-between items-center gap-4 h-full p-3">
+      <div className="flex flex-col gap-6 md:text-left">
+        <p className="text-2xl md:text-3xl">Hello I'm</p>
+        <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl">
+          Barchinoy Yusupova
+        </h1>
+        <div className="text-xl md:text-3xl">
+          <ReactTyped
+            strings={[
+              "a full-stack developer",
+              "a backend developer",
+              "a frontend developer",
+            ]}
+            typeSpeed={80}
+            backSpeed={40}
+            loop
+          />
         </div>
-    )
-}
+      </div>
 
-export default memo(Home)
+      <div>
+        <img
+          className="w-[300px] h-[200px] md:w-[420px] md:h-[420px] object-cover rounded-full"
+          src={image}
+          alt="Profile"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default memo(Home);

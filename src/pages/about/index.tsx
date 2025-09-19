@@ -60,8 +60,8 @@ const About = () => {
           animation-delay: 3s;
         }
       `}</style>
-      <div className='relative z-10 container mx-auto px-4 max-w-6xl'>
-        <div className='mb-16 text-center lg:text-left'>
+      <div className='relative z-10 container__pages mx-auto px-4 max-w-6xl'>
+        <div className='mb-10 text-center lg:text-left md:mb-16'>
           <h1 className='text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6'>
             About Me
           </h1>
