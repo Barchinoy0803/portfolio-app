@@ -2,7 +2,6 @@ import { memo } from 'react'
 import fedback1 from "../../assets/fedback1.png"
 import fedback2 from "../../assets/fedback2.png"
 import fedback3 from "../../assets/fedback3.png"
-import fedback4 from "../../assets/fedback4.png"
 import { NavLink } from 'react-router-dom'
 
 const About = () => {
@@ -25,12 +24,6 @@ const About = () => {
       company: "Najot Ta'lim",
       linkedin: "https://www.linkedin.com/in/xam1dullo?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5yOvEuLsT7m53aP4uy0mpg%3D%3D"
     },
-    {
-      image: fedback4,
-      name: "Anvarjon Shavqiyev",
-      company: "Itransition",
-      linkedin: "https://www.linkedin.com/in/anvarjonshavqiyev?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlDhvRXCAR0qHLvXYGI3hHQ%3D%3D"
-    }
   ]
 
   return (
